@@ -14,6 +14,10 @@ interface Category {
 
 export const mainNavigation: NavigationItem[] = [
   {
+    label: 'Home',
+    href: '/',
+  },
+  {
     label: 'Services',
     href: '/services',
     children: (servicesData.categories as Category[]).map(category => ({
@@ -24,6 +28,18 @@ export const mainNavigation: NavigationItem[] = [
   {
     label: 'Government',
     href: '/government/departments',
+  },
+  {
+    label: 'Statistics',
+    href: '/statistics',
+  },
+  {
+    label: 'Transparency',
+    href: '/budget',
+  },
+  {
+    label: 'Contact',
+    href: '/contact',
   },
 ];
 

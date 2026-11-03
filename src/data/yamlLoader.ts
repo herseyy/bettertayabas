@@ -29,6 +29,8 @@ export interface CategoryIndexData {
 
 // Import the YAML file as raw text
 import servicesYamlContent from './services.yaml?raw';
+import statisticsYamlContent from './statistics.yaml?raw';
+
 import governmentActivitiesYamlContent from './government.yaml?raw';
 
 // Import all category index files statically
@@ -64,6 +66,10 @@ const categoryIndexMap: { [key: string]: string } = {
 // Parse the YAML content
 export const serviceCategories: CategoryData = yaml.load(
   servicesYamlContent
+) as CategoryData;
+
+export const statisticsCategories: CategoryData = yaml.load(
+  statisticsYamlContent
 ) as CategoryData;
 
 export const governmentCategories: CategoryData = yaml.load(

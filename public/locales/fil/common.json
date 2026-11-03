@@ -1,0 +1,60 @@
+{
+  "site_name": "Tayabas City Portal",
+  "site_description": "Tagalog",
+  "hotlines": {
+    "police": "(+63) 998-598-5739",
+    "fire": "(+63) 932-140-2703",
+    "drrmo": "(+63) 917-839-8434"
+  },
+  "hero": {
+    "title": "BetterTayabas",
+    "subtitle": "Test",
+    "nationalId": "National ID",
+    "birthCertificate": "Birth Certificate",
+    "businessRegistration": "Business Registration"
+  },
+  "services": {
+    "title": "Services & Information",
+    "governmentServices": "Government Services",
+    "description": "Access official government services quickly and easily. Find what you need for citizenship, business, education, and more.",
+    "viewAll": "View All Services",
+    "viewAllCategory": "View All"
+  },
+  "governmentActivity": {
+    "title": "Government Activity",
+    "description": "Stay updated with the latest government activities and announcements."
+  },
+  "weather": {
+    "title": "Weather Updates"
+  },
+  "forex": {
+    "title": "Foreign Exchange Rates"
+  },
+  "news": {
+    "title": "Latest News & Updates"
+  },
+  "footer": {
+    "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "government": "Government",
+    "statistics": "Statistics",
+    "transparency": "Transparency",
+    "contact": "Contact"
+  },
+  "joinUs": {
+    "stripTitle": "🚀 Join the #CivicTech Revolution",
+    "stripSubtitle": "Help build the future of the Philippines and governance through technology",
+    "joinNow": "Join Now",
+    "discord": "Discord",
+    "bannerTitle": "Join the #CivicTech Revolution",
+    "bannerSubtitle": "Help build the future of the Philippines and governance through technology.",
+    "bannerHighlight": "Volunteer-led. Open source. Community-driven.",
+    "joinMovement": "Join Our Movement",
+    "or": "or",
+    "joinDiscord": "Join Discord",
+    "features": "🚀 Infrastructure • 💡 Mentorship • 🤝 Community • 🏢 Office Space"
+  }
+}

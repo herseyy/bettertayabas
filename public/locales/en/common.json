@@ -1,12 +1,42 @@
 {
-  "site_name": "Lapu Lapu City Portal",
-  "site_description": "A community-run portal for the Lapu Lapu City",
+  "site_name": "Tayabas City Portal",
+  "site_description": "A community-run portal for the Tayabas City.",
+  "hotlines": {
+    "police": {
+      "label": "Police",
+      "number": "(+63) 998-598-5739"
+    },
+    "fire": {
+      "label": "Fire",
+      "number": "(+63) 932-140-2703"
+    },
+    "drrmo": {
+      "label": "DRRMO",
+      "number": "(+63) 917-839-8434"
+    }
+  },
+  "forex": {
+    "title": "Foreign Exchange Rates",
+    "currencies": {
+      "usd": "USD",
+      "cad": "CAD",
+      "eur": "EUR",
+      "aud": "AUD",
+      "jpy": "JPY",
+      "gbp": "GBP"
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "government": "Government",
+    "statistics": "Statistics",
+    "transparency": "Transparency",
+    "contact": "Contact"
+  },
   "hero": {
-    "title": "Welcome to BetterGov.ph",
-    "subtitle": "A community-run portal to find information of the Lapu Lapu City Government",
-    "nationalId": "National ID",
-    "birthCertificate": "Birth Certificate",
-    "businessRegistration": "Business Registration"
+    "welcome": "Welcome to",
+    "subtitle": "Explore local government services, official updates, transparent governance, and essential resources for the people of Tayabas City, Quezon."
   },
   "services": {
     "title": "Services & Information",
@@ -15,6 +45,10 @@
     "viewAll": "View All Services",
     "viewAllCategory": "View All"
   },
+  "statistics": {
+    "title": "Tayabas at a Glance",
+    "viewAll": "View Statistics"
+  },
   "governmentActivity": {
     "title": "Government Activity",
     "description": "Stay updated with the latest government activities and announcements."
@@ -22,20 +56,11 @@
   "weather": {
     "title": "Weather Updates"
   },
-  "forex": {
-    "title": "Foreign Exchange Rates"
-  },
   "news": {
     "title": "Latest News & Updates"
   },
   "footer": {
     "copyright": "© 2025 BetterGov. All content is public domain unless otherwise specified."
-  },
-  "navbar": {
-    "government": "Government",
-    "services": "Services",
-    "hotlines": "Hotlines",
-    "holidays": "Holidays"
   },
   "joinUs": {
     "stripTitle": "🚀 Join the #CivicTech Revolution",

@@ -1,0 +1,13 @@
+# Local Government Statistics Data
+# This file contains all the statistics data for the local government portal
+# Non-technical users can easily edit this file to add, remove, or modify statistics section
+
+
+categories:
+  - category: 'Population'
+    slug: 'population'
+    description: 'Access Freedom of Information releases and transparency documents for local government accountability.'
+    icon: 'FileText'
+    subcategories:
+      - name: 'Transparency Documents'
+        slug: 'transparency-documents'
