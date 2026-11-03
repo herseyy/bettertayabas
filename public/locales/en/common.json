@@ -47,6 +47,7 @@
   },
   "statistics": {
     "title": "Tayabas at a Glance",
+    "description": "Population, Baranggay, Land Area",
     "viewAll": "View Statistics"
   },
   "governmentActivity": {

@@ -8,8 +8,27 @@ import { Link } from 'react-router';
 
 import { statisticsCategories } from '../../data/yamlLoader';
 
+interface Subcategory {
+  name: string;
+  slug: string;
+}
+
+interface Category {
+  category: string;
+  slug: string;
+  subcategories: Subcategory[];
+  description: string;
+  icon: string;
+}
+
+interface StatisticsSectionProps {
+  title?: string;
+  description?: string;
+}
+
 export default function StatisticsSection({
   title,
+  description,
 }: StatisticsSectionProps = {}) {
   const { t } = useTranslation();
 
@@ -25,6 +44,9 @@ export default function StatisticsSection({
   return (
     <Section id="#statistics">
       <Heading level={2}>{title || t('statistics.title')}</Heading>
+      <Text className="text-gray-600 mb-6">
+        {description || t('statistics.description')}
+      </Text>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {displayedCategories.map(category => (
           <Card
